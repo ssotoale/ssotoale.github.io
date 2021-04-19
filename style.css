@@ -149,9 +149,20 @@ div.container {
 }
  */
 
+button {
+  border: 3px solid #ff7a59;
+}
+
+button:hover {
+  border: 3px dotted #ff7a59;
+  color: #ff7a59;
+  background: #fff;
+}
+
 #projects {
   top: 110px;
   background-color: #E9A2A1;
+  
 }
 
 #experience {
