@@ -1,1 +1,76 @@
+/* Default font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  /* flexbot and footer */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+
+/* Repsonsive image */
+.responsive {
+  max-width: 30%;
+  height: auto;
+}
+/* Side navigation */
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 30px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #908379;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0px;
+}
+
+
+#projects {
+  top: 110px;
+  background-color: #E9A2A1;
+}
+
+#experience {
+  top: 210px;
+  background-color: #E9A2A1;
+}
+
+#leadership {
+  top: 310px;
+  background-color: #E9A2A1;
+}
+
+#resume {
+  top: 410px;
+  background-color: #FCFDFA;
+}
+
+#contact {
+  top: 510px;
+  background-color: #FCFDFA
+}
+/* keep left at 0, when scrolling left goes to -80px at 0.3s */
+
+/* footer */
+.content {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+/* box footer */
+.footerBox {
+  height: 50px;
+  /* margin-top: -50px; */
+  background: rgb(122,159,232);
+  background: linear-gradient(90deg, rgba(122,159,232,1) 8%, rgba(237,234,175,1) 48%, rgba(237,120,173,1) 93%);
+}
