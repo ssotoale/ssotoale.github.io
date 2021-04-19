@@ -154,28 +154,45 @@ div.container {
   background-color: #E9A2A1;
   
 }
-#projects: hover {
-  color: red;  
+#projects:hover {
+  color: #FCFDFA;
+  background-color:#908379;
 }
 
 #experience {
   top: 210px;
   background-color: #E9A2A1;
 }
+#experience:hover {
+  color: #FCFDFA;
+  background-color:#908379;
+}
+
 
 #leadership {
   top: 310px;
   background-color: #E9A2A1;
 }
-
+#leadership:hover {
+  color: #FCFDFA;
+  background-color:#908379;
+}
 #resume {
   top: 410px;
   background-color: #FCFDFA;
+}
+#resume:hover {
+  color: #FCFDFA;
+  background-color:#908379;
 }
 
 #contact {
   top: 510px;
   background-color: #FCFDFA;
+}
+#contact:hover {
+  color: #FCFDFA;
+  background-color:#908379;
 }
 
 
